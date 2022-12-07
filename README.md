@@ -2,10 +2,10 @@
 
 This project was bootstrapped with [Create React App].
 
+Styling with Tailwindcss
+
 ## Links:
 
 http://apple.dobler.studio
 
-In the project directory, you can run:
-
-### Images from bigStock & Envato Elements
+### Images sourced from BigStock, Envato Elements, Apple Gift from Apple.com but turned into SVG in illustrator.
