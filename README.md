@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App].
 
 ## Links:
 
-apple.dobler.studio
+http://apple.dobler.studio
 
 In the project directory, you can run:
 
