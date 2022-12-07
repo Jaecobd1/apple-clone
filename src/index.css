@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+    .navLink {
+        @apply hidden
+    }
+    .navLinkMd {
+        @apply inline-flex
+    }
+    .actions {
+        @apply flex space-x-2 text-lightBlue mt-2 font-bold mb-2
+    }
+    .categoryMd {
+        @apply flex font-bold mb-2 border-b-0
+    }
+    .category {
+        @apply w-full border-b-2 border-b-footerGrey pt-4 pb-4
+    }
+    .footerLinksMd {
+        @apply flex flex-col gap-2 mb-4
+    }
+    .footerLinks {
+        @apply hidden
+    }
+    .wrapper {
+        @apply grid grid-cols-5
+    }
+    .section {
+        @apply w-full
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
