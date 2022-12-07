@@ -9,7 +9,9 @@ function App() {
     <div className="font-roboto">
       
       <head>
-        
+        <meta property="og:title" content="Jake Dobler's Apple" />
+        <title>Apple Home</title>
+        <meta name="description" content="Jake Dobler's Apple Clone"/>
       </head>
       <Nav />
     <Hero >
